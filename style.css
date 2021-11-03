@@ -11,9 +11,7 @@ body {
 	height: 75px;
 	width: 100%;
   position: relative;
-  background-image: -webkit-linear-gradient(to bottom right, #004a81, 20%, #e14600 80%);
-	background-image: -moz-linear-gradient(to bottom right, #004a81 0%, #e14600 100%);
-	background-image: linear-gradient(to bottom right, #004a81 0%, #e14600 100%);
+  background-image: url("https://raw.githubusercontent.com/github-nerd/linkpage/main/imagevideoaudio/grungeno1.png");
 }
 
 .navbar-header {
@@ -121,20 +119,158 @@ body {
 		height: 0%;
 	}
 }
-.circular--portrait {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
+placeholder {color: #ababab;}
+*::-moz-placeholder {color: #ababab;}
+*, *::before, *::after {box-sizing: inherit;}
+*, *::before, *::after {box-sizing: inherit;}
+a {color: inherit;text-decoration: none;}
+a {background: transparent none repeat scroll 0 0;}
+.toggle-button {
+    
 }
-
-img {
-  float: left;
-  width: 170px;
-  height: 170px;
-  margin-right: 5px;
-  margin-left: 15px;
-  border: 3px solid gold;
-  padding: 5px;
+input#toggle {
+  display: none;
+}
+input#toggle + label {
+    border-left: 1px solid #dfdfdf;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 19px;
+    height: 60px;
+    line-height: 58px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: top 0.5s ease-in-out 0s;
+  -webkit-transition: top 0.5s ease-in-out 0s;
+    vertical-align: middle;
+    width: 60px;
+}
+input#toggle + label i{
+   transition: top 0.5s ease-in-out;
+}
+input#toggle + label i.toggle-icon:before {
+  font-family:FontAwesome;
+    content: "\f038";    
+    vertical-align: top;  
+}
+input#toggle:checked + label i.toggle-icon:before { 
+  font-family:FontAwesome;
+    content: "\f036";    
+    vertical-align: top;  
+}
+.profile-card {
+    position: relative;
+    padding: 0 20px;
+}
+.profile-card header{
+  padding-top: 1.33333em;
+  font-size: 1.5em;
+  margin-bottom: 1.33333em;
+  position: relative;
+  text-align: center;
+  z-index: 20;
+  display:block;
+}
+.title {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.05;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+  font-weight:900;
+}
+.title span{
+  color:rgba(0, 0, 0, 0.1);
+}
+.description {
+    color: #555;
+    font-size: 18px
+}
+h1, h2, h3, h4, h5, h6 {    
+    color: #333;
+    font-family: "Rajdhani",sans-serif;
+    font-weight: 500;  
+}
+.avatar-image {
+    margin-top: 1.33333em;
+    max-height: 320px;
+    text-align: center;
+    width: auto;
+}
+img {border: 0 none;height: auto;max-width: 100%;vertical-align: middle;}
+.profile-bio {
+   background-color: #fff;
+   border-radius: 4px;
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+   color: #555;
+   margin: 0 auto 1.33333em;
+   max-width: 768px;
+   min-height: 4em;
+   overflow: hidden;
+   position: relative;
+   z-index: 10;
+}
+.profile-content{
+  position: relative;
+}
+.profile-social {   
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index:999;
+}
+.profile-social a {
+    border-right: 1px solid #dfdfdf;
+    color: #999;
+    float: left;
+    font-size: 18px;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 60px;
+}
+.profile-social a:hover{
+  color:#000;
+}
+.profile-detail{
+  -moz-box-direction: normal;
+  -moz-box-orient: vertical;
+  display: block;
+  flex-direction: column;
+  line-height: 1;
+  text-align: center;
+  padding: 1em 3.33333em 0.8em 4.66667em;
+}
+.profile-name {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.profile-title{ 
+    color: #333;    
+    font-size:14px;
+    margin-bottom: 0.333333em;
+}
+.bio-description {
+    border-top:1px solid #dfdfdf;
+    margin: 0;
+    padding: 0 60px;
+    position: relative;
+    font-size:14px;
+    transition: top 0.5s ease-in-out;
+display:none
+} 
+input#toggle:checked + label {  
+}
+input#toggle:checked ~ .bio-description{ 
+  display:block !important;
 }
