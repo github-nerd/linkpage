@@ -6,8 +6,9 @@
 .upper-nav{
     background-color: #1560bd;
     display: flex;
-justify-content: space-around;
-    padding: 0.6%;
+justify-content: center;
+    padding-top: 0.7%;
+    padding-bottom: 0.2%;
 align-items: center;
 border-top-left-radius: 8px;
 border-top-right-radius: 8px;
@@ -17,10 +18,12 @@ border-top-right-radius: 8px;
     color: #1560bd;
     display: flex;
     justify-content: center;
+    padding-top: 0.4%;
+    padding-bottom: 0.1%;
     align-items: center;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    margin-bottom:10px;
+    margin-bottom:18px;
 }
 .navbar .logo{
 height: 35px;
@@ -44,10 +47,9 @@ height: 35px;
 .nav-list ul{
     position: absolute;
     text-align: center;
-    background: chocolate;
+    background: #0e0e0e;
     display: block;
     width: 200px;
-
 }
 
 /*header {
@@ -63,6 +65,7 @@ body {
   border-radius: 5px;
   background-image: url("https://raw.githubusercontent.com/github-nerd/linkpage/main/imagevideoaudio/darkpixels.png?token=AUHPERXSQZAGLCDZGIOSFNLAYOU34");
   text-align: center;
+  color: #0e0e0e;
   font-family: helvetica;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -91,14 +94,14 @@ img {
 
 .lista {
   background-color: #1560bd;
-  color:(#1560bd);
+  color: #0e0e0e;
   border-radius: 10px;
   text-align: center;
   padding: 5% 10%;
 }
   
   a:link, a:visited {
-    color: #999999;
+    color: grey;
   }
   
   a:hover, a:active {
