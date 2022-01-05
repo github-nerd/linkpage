@@ -3,8 +3,9 @@
     padding: 0%;
     
 }
+
 .upper-nav{
-    background-color: #1560bd;
+    background-color: #eb593d;
     display: flex;
 justify-content: center;
     padding-top: 0.7%;
@@ -15,7 +16,7 @@ border-top-right-radius: 8px;
 }
 .navbar{
     background-color: #0e0e0e;
-    color: #1560bd;
+    color: #eb593d;
     display: flex;
     justify-content: center;
     padding-top: 0.4%;
@@ -66,7 +67,7 @@ body {
   background-image: url("https://raw.githubusercontent.com/github-nerd/linkpage/main/imagevideoaudio/darkpixels.png?token=AUHPERXSQZAGLCDZGIOSFNLAYOU34");
   text-align: center;
   color: #0e0e0e;
-  font-family: helvetica;
+  font-family: 'Libre Baskerville', serif;
   padding-top: 19px;
   padding-bottom: 14px;
 }
@@ -85,7 +86,7 @@ img {
 }
 
 #img-div{
-  background-color:#1560bd;
+  background-color:#eb593d;
   border-radius: 10px;
   padding: 1em 5em;
 
@@ -93,7 +94,7 @@ img {
 
 
 .lista {
-  background-color: #1560bd;
+  background-color: #eb593d;
   color: #0e0e0e;
   border-radius: 10px;
   text-align: center;
