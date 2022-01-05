@@ -5,7 +5,7 @@
 }
 
 .upper-nav{
-    background-color: #ff7f50;
+    background-color: #00bfff;
     display: flex;
 justify-content: center;
     padding-top: 0.7%;
@@ -16,7 +16,7 @@ border-top-right-radius: 8px;
 }
 .navbar{
     background-color: #0e0e0e;
-    color: #ff7f50;
+    color: #00bfff;
     display: flex;
     justify-content: center;
     padding-top: 0.4%;
@@ -86,7 +86,7 @@ img {
 }
 
 #img-div{
-  background-color: #ff7f50;
+  background-color: #00bfff;
   border-radius: 10px;
   padding: 1em 5em;
 
@@ -94,7 +94,7 @@ img {
 
 
 .lista {
-  background-color: #ff7f50;
+  background-color: #00bfff;
   color: #0e0e0e;
   border-radius: 10px;
   text-align: center;
