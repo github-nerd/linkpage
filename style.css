@@ -1,3 +1,4 @@
+
 *{
     margin: 0%;
     padding: 0%;
@@ -62,7 +63,7 @@ footer {
 
 body {
   width: 90%;
-  margin: 5px auto;
+  margin: 0 auto;
   border-radius: 5px;
   background-image: url("https://raw.githubusercontent.com/github-nerd/linkpage/main/imagevideoaudio/darkpixels.png?token=AUHPERXSQZAGLCDZGIOSFNLAYOU34");
   text-align: center;
@@ -75,16 +76,19 @@ body {
 #title {color:#0e0e0e;}
 
 img {
-  border-radius: 5%;
-  width: 200px;
+  border-radius:100%;
+  width:200px;
+  max-width: 70%;
+  max-height: 70%;
   margin-left: auto;
   margin-right: auto;
-  margin: 10px auto;
+  display: block;
+  padding: 5%;
 }
 
 #img-div{
   background-color: #00bfff;
-  border-radius 10px;
+  border-radius: 10px;
   padding: 1em 5em;
 
 }
@@ -95,7 +99,7 @@ img {
   color: #0e0e0e;
   border-radius: 10px;
   text-align: center;
-  padding: 5%;
+  padding: 7% 10%;
 }
   
   a:link, a:visited {
