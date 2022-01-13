@@ -65,21 +65,15 @@ body {
   padding-bottom: 14px;
 }
 
-h1 {
- border:0;
- border-radius: 10px;
- width : 200px;
- height : 200px;
- margin : 0;
- padding : 0;
-background:url(https://raw.githubusercontent.com/github-nerd/linkpage/main/imagevideoaudio/portrait.png);
-}
-
-h1 a {
- display : block;
- height : 113px;
- text-indent : -9999px; 
-}
+.image1 {
+        width: 145px;
+        height: 145px;
+        border-radius: 8px;
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 0px solid #000000;
+      }
 
 .lista {
   background-color: #00bfff;
