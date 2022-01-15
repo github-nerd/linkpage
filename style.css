@@ -8,8 +8,8 @@
     background-color: #00bfff;
     display: flex;
 justify-content: center;
-    padding-top: 0.7%;
-    padding-bottom: 0.2%;
+    padding-top: 2.0%;
+    padding-bottom: 0.0%;
 align-items: center;
 border-top-left-radius: 8px;
 border-top-right-radius: 8px;
@@ -19,12 +19,12 @@ border-top-right-radius: 8px;
     color: #00bfff;
     display: flex;
     justify-content: center;
-    padding-top: 0.4%;
-    padding-bottom: 0.1%;
+    padding-top: 0.0%;
+    padding-bottom: 0.0%;
     align-items: center;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    margin-bottom:19px;
+    margin-bottom:40px;
 }
 .navbar .logo{
 height: 3px;
@@ -62,7 +62,7 @@ body {
   color: #0e0e0e;
   font-family: 'Libre Baskerville', serif;
   padding-top: 19px;
-  padding-bottom: 14px;
+  padding-bottom: 19px;
 }
 
 .image1 {
