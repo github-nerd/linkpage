@@ -14,7 +14,7 @@ align-items: center;
 border-top-left-radius: 8px;
 border-top-right-radius: 8px;
 border: 2px solid #0e0e0e;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.04);
 }
 .navbar{
     background-color: #0e0e0e;
@@ -27,7 +27,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border: 2px solid #0e0e0e;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.04);
     margin-bottom:30px;
 }
 .navbar .logo{
@@ -77,7 +77,7 @@ body {
         top: 0;
         left: 0;
         border: 2px solid #0e0e0e;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.04);
       }
 
 #title {color:#0e0e0e;}
@@ -89,7 +89,7 @@ body {
   text-align: center;
   padding: 7% 10%;
   border: 2px solid #0e0e0e;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.04);
 }
 
   
