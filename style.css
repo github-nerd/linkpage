@@ -8,8 +8,8 @@
     background-color: #00bfff;
     display: flex;
 justify-content: center;
-    padding-top: 3.2%;
-    padding-bottom: 0.0%;
+    padding-top: 0.0%;
+    padding-bottom: 2.5%;
 align-items: center;
 border-top-left-radius: 8px;
 border-top-right-radius: 8px;
@@ -27,8 +27,8 @@ box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.04);
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border: 2px solid #0e0e0e;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.04);
-    margin-bottom:30px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.04); 
+margin-bottom:2px;
 }
 .navbar .logo{
 height: 3px;
@@ -59,7 +59,7 @@ height: 3px;
 
 body {
   width: 90%;
-  margin: 0 auto;
+  margin: -1px auto;
   border-radius: 5px;
   background-image:url("https://raw.githubusercontent.com/github-nerd/linkpage/main/imagevideoaudio/darkpixels.png?token=AUHPERXSQZAGLCDZGIOSFNLAYOU34");
   text-align: center;
@@ -76,8 +76,9 @@ body {
         position: relative;
         top: 0;
         left: 0;
+        margin-bottom: 6px;
         border: 2px solid #0e0e0e;
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.04);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.04);
       }
 
 #title {color:#0e0e0e;}
@@ -87,7 +88,7 @@ body {
   color: #0e0e0e;
   border-radius: 10px;
   text-align: center;
-  padding: 7% 10%;
+  padding: 7%;
   border: 2px solid #0e0e0e;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.04);
 }
