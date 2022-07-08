@@ -1,8 +1,4 @@
 html {
-    box-sizing: border-box;
-    font-size:1.1rem;
-    font-weight:600;
-    color: #ffffff;
 }
 
 *, *:before, *:after {
@@ -20,6 +16,11 @@ body{
   background-size: auto; 
     text-align: center;
     font-family: 'Source Serif Pro', serif;
+    box-sizing: border-box;
+    font-size:1.1rem;
+    font-weight:600;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
 }
 
 .logo{
@@ -28,6 +29,9 @@ body{
     width: 250px;
     height: 250px;
     border: 2px solid #fc6137;
+    text-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    border-radius: 8px;
 }
 
 audio {
@@ -38,6 +42,8 @@ audio {
   box-shadow: 5px 5px 20px rgba(0,0, 0, 0.1);
   background-color: #000000;
   border: 2px solid #FF8362;
+  text-shadow: 2px 2px #000000;
+  box-shadow: 2px 2px #000000;
 }
 
 a{
@@ -53,26 +59,32 @@ a{
     font-size:1.0rem;
     border-radius: 6px; 
     box-shadow: 5px 5px 20px rgba(0,0, 0, 0.1);
+    box-shadow: 2px 2px #000000;
 } 
 
 /* unvisited link */
 a:link {
   color: #000000;
+    box-sizing: border-box;
+    font-size:1.1rem;
+    font-weight:600;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
 }
 
 /* visited link */
 a:visited {
-  color: #583415;
+  color: #ffdb58;
 }
 
 /* mouse over link */
 a:hover {
-  color: #ffffff;
+  color: #fc6137;
 }
 
 /* selected link */
 a:active {
-  color: #583415;
+  color: #006d5b;
 } 
 
 h2{
@@ -80,6 +92,11 @@ h2{
     margin-bottom: 20px;
     font-size:1.0rem;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: normal;                                         
     letter-spacing: 3px;
+    box-sizing: border-box;
+    font-size:1.1rem;
+    font-weight:600;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
 }
