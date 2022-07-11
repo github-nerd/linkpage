@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     font-size:1.0rem;
-    font-weight:normal;
+    font-weight:bold;
     color: #ffffff;
     text-shadow: 2px 2px #000000;
     font-family: 'Roboto Slab', serif;
@@ -59,8 +59,8 @@ a{
     padding: 14px 20px;
     font-size:1.0rem;
     border-radius: 6px; 
-    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.1);
     box-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px #000000;
 } 
 
 a:link {
