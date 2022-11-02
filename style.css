@@ -4,7 +4,7 @@ html {
     font-weight:normal;
     color: #ffffff;
     text-shadow: 2px 2px #000000;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Jura', sans-serif;
     text-transform: uppercase;
 }
 
@@ -29,7 +29,7 @@ body{
     padding: -1px -1px;
     width: 250px;
     height: 250px;
-    border: 2px solid #fc6137;
+    border: 2px solid #EC5800;
     text-shadow: 2px 2px #000000;
     box-shadow: 2px 2px #000000;
     border-radius: 8px;
@@ -42,19 +42,19 @@ audio {
   transform: scale(1.05);
   box-shadow: 5px 5px 20px rgba(0,0, 0, 0.1);
   background-color: #000000;
-  border: 2px solid #FF8362;
+  border: 2px solid #EC5800;
   text-shadow: 2px 2px #000000;
   box-shadow: 2px 2px #000000;
 }
 
 a{
-    color: #583415;
+    color: #ffffff;
     max-width:400px;
     height: 50px;
-    border: 2px solid #fc6137;
+    border: 2px solid #EC5800;
     display:block;
     margin:0 auto 24px auto;
-    background-color:#FF8362;
+    background-color:#0047AB;
     text-decoration:none;
     padding: 14px 20px;
     font-size:1.0rem;
@@ -65,7 +65,7 @@ a{
 } 
 
 a:link {
-  color: #000000;
+  color: pink;
     box-sizing: border-box;
     font-size:1.0rem;
     font-weight:normal;
@@ -74,15 +74,15 @@ a:link {
 }
 
 a:visited {
-  color: #ffdb58;
+  color: #D22B2B;
 }
 
 a:hover {
-  color: #fc6137;
+  color: #EC5800;
 }
 
 a:active {
-  color: ##00C5CD;
+  color: yellow;
 } 
 
 h2{
